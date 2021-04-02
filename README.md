@@ -3,7 +3,25 @@
 Just trying to see what it takes to cross-compile ARM64 assembly on x86-64 Linux
 and macOS.
 
+TODOs:
+
+- [ ] No way to execute on macOS yet
+
 ## Requirements
+
+### macOS
+
+Install the gcc toolchain for _embedded_ programming, which is different from
+the Linux version below:
+
+```
+brew --cask install gcc-arm-embedded
+```
+
+Install QEMU to execute the ARM executable:
+```
+brew install qemu
+```
 
 ### Linux x86-64
 
