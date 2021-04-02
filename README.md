@@ -26,3 +26,9 @@ make run
 ```
 
 That should print `Hello!` and check that the exit code is 69.
+
+
+## Resources
+
+- [Compiling to Assembly from Scratch](https://keleshev.com/compiling-to-assembly-from-scratch/)
+- https://gist.github.com/joegoggins/7763637
