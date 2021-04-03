@@ -14,5 +14,5 @@ run: hello
 docker-image: Dockerfile
 	@docker build --quiet -t arm64-experiments . >/dev/null
 
-run-macos: docker-image
+run-macos:
 	@docker run -v $(shell pwd):/code arm64-experiments -c 'make run'
