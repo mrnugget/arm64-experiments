@@ -1,6 +1,6 @@
 .data
 	hello:
-		.string "Hello foo!\n"
+		.string "Hello from Linux inside macOS!\n"
 
 .text
 	.global main
