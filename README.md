@@ -50,3 +50,4 @@ That should print `Hello!` and check that the exit code is 69.
 
 - [Compiling to Assembly from Scratch](https://keleshev.com/compiling-to-assembly-from-scratch/)
 - https://gist.github.com/joegoggins/7763637
+- [rsms/qemu-macos-x86-arm64](https://github.com/rsms/qemu-macos-x86-arm64)
